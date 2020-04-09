@@ -5,7 +5,6 @@ row_index = 0
 string = []
 while row_index < src.count do
   element_index = 0
-  #binding.pry
   while element_index < src[row_index].count do
      if min == nil ||
        src[row_index][element_index] < min
