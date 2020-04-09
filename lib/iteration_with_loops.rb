@@ -7,7 +7,7 @@ string = []
 while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
-     src.keep_if {|v| v =~ /[""]/ }
+     string << src.keep_if {|v| v =~ /[""]/ }
   end
  element_index += 1
  end
