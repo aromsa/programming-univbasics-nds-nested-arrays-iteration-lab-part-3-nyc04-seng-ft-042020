@@ -7,7 +7,7 @@ string = []
 while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
-     if [element_index][row_index] == 
+     if [element_index][row_index]
        string << [element_index][row_index]
   end
  element_index += 1
