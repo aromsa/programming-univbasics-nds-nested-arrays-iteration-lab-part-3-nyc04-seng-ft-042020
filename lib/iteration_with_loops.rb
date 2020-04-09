@@ -5,13 +5,14 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
 
 row_index = 0
-string = []
+array_string = []
+
 #num = -10..1000
 while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
     if src[element_index][row_index] == ("")
-      string << src[element_index][row_index]
+      array.string << src[element_index][row_index]
       #binding.pry
   end
  element_index += 1
