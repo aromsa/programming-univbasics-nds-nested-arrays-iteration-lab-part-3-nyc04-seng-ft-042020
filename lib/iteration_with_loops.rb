@@ -17,18 +17,5 @@ end
   min_array << min
 end
 min_array
-end
 
-#array.min
-  
-# counter = 0  
-# min = nil
-# while counter < array.length
-#   if min == nil ||
-#     array[counter] < min  
-#     min = array[counter]
-# end
-# counter += 1
-# end
-# min
-end
+
