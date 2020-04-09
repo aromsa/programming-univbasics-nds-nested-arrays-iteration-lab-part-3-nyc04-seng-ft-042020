@@ -8,7 +8,7 @@ num = -10...1000
 while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
-    if src[element_index][row_index] == ""
+    if src[element_index][row_index] != num
       string << src[element_index][row_index]
   end
  element_index += 1
