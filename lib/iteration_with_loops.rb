@@ -20,7 +20,7 @@ while row_index < src.count do
   row_index += 1
   #binding.pry
 end
-string
+array_string
 end
 
 
