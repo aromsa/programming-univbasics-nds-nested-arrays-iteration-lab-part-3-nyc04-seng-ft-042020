@@ -8,7 +8,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
     if src[element_index][row_index] = ""
-      string << src[element_index][row_index][0][2][4][5]
+      string << src[element_index][row_index]
   end
  element_index += 1
  end
