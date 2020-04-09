@@ -12,7 +12,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
     if src[element_index][row_index] == ("")
-      array.string << src[element_index][row_index]
+      array_string << src[element_index][row_index]
       #binding.pry
   end
  element_index += 1
