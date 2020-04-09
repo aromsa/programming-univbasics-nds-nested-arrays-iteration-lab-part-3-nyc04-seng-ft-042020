@@ -15,9 +15,9 @@ while row_index < src.count do
       #binding.pry
   end
  element_index += 1
- binding.pry
  end
   row_index += 1
+  binding.pry
 end
 string
 end
