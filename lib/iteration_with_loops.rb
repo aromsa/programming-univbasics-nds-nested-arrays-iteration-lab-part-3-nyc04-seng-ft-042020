@@ -10,7 +10,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
     if src[row_index][element_index].class == String
-      array_string << src[row_index][element_index].join('')
+      array_string.join('') << src[row_index][element_index].join('')
       #binding.pry
   end
  element_index += 1
