@@ -12,6 +12,7 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if src[element_index][row_index] != num
       string << src[element_index][row_index]
+      binding.pry
   end
  element_index += 1
  end
